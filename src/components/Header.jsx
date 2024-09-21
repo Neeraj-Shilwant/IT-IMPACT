@@ -7,6 +7,7 @@ import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
 import { HamburgerMenu } from "./design/Header";
 import { useState } from "react";
+import ScrollToHash from "./Scrolltohash";
 
 
 const Header = () => {
@@ -31,6 +32,8 @@ const Header = () => {
   };
 
   return (
+    <>
+    <ScrollToHash/>
     <div
       className={`fixed top-0 left-0 w-full z-50  border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm ${
         openNavigation ? "bg-n-8" : "bg-n-8/90 backdrop-blur-sm"
@@ -96,6 +99,7 @@ const Header = () => {
         </Button>
       </div>
     </div>
+    </>
   );
 };
 
