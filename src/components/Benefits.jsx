@@ -4,7 +4,7 @@ import Section from "./Section";
 import Arrow from "../assets/svg/Arrow";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
-
+import { Link } from "react-router-dom";
 // import Button from "./Button";
 
 const Benefits = () => {
@@ -43,9 +43,9 @@ const Benefits = () => {
                     alt={item.title}
                   />
                   
-                  <a href={item.url} className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
+                  <Link to={item.url} className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
                     Explore more
-                  </a>
+                  </Link>
                   
                   <Arrow />
                 </div>
