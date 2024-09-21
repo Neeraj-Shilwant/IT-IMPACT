@@ -1,6 +1,6 @@
 import React from 'react'
 import Section from './Section'
-import '../assets/js/script.js'
+
 import CountUp from "react-countup";
 
 const Count = () => {
@@ -16,7 +16,7 @@ const Count = () => {
                     className="counter text-white"
                     start={0}
                     end={2022}
-                    duration={2}
+                    duration={5}
                     useEasing={true}
                     
                     />
@@ -31,7 +31,7 @@ const Count = () => {
                     className="counter text-white"
                     start={0}
                     end={15}
-                    duration={2}
+                    duration={5}
                     useEasing={true}
                     
                     />
@@ -47,7 +47,7 @@ const Count = () => {
                     className="counter text-white"
                     start={0}
                     end={847}
-                    duration={2}
+                    duration={5}
                     useEasing={true}
                     
                     />
@@ -63,7 +63,7 @@ const Count = () => {
                     className="counter text-white"
                     start={0}
                     end={20}
-                    duration={2}
+                    duration={5}
                     useEasing={true}
                     
                     />
