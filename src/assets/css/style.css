@@ -680,7 +680,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .box-default-title {
-	color: #404044;
+	color: #6d6dff;
 	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: .16em;

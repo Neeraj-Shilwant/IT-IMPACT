@@ -31,7 +31,7 @@ const Seo = () => {
                 <div class="section-name wow fadeInRight" data-wow-delay=".2s">Seo</div>
                 <h3 class="wow fadeInLeft text-capitalize devider-bottom" data-wow-delay=".3s">What We<span class="text-primary"> Do</span></h3>
                 <p class="offset-xl-40 wow fadeInUp" data-wow-delay=".4s">In today’s digital landscape, being found online is crucial for any business. With our tailored Search Engine Optimization (SEO) services, we ensure your website ranks higher on search engines like Google, driving more organic traffic and increasing your brand's visibility. Whether you are a startup or an established enterprise, we have the expertise to elevate your digital presence.</p>
-                <p class="default-letter-spacing font-weight-bold text-gray-dark wow fadeInUp" data-wow-delay=".4s">Boost Your Online Presence with Professional SEO Services</p>
+                <p class="default-letter-spacing font-weight-bold text-primary wow fadeInUp" data-wow-delay=".4s">Boost Your Online Presence with Professional SEO Services</p>
               </div>
             </div>
           </div>
@@ -56,19 +56,19 @@ const Seo = () => {
                 </div>
                 <div class="col-xl-6 wow fadeInUp" data-wow-delay=".3s">
                   <div class="box-default">
-                    <div class="box-default-title">On-Page SEO Optimization</div>
+                    <div class="box-default-title ">On-Page SEO Optimization</div>
                     <p class="box-default-description">URL structure optimization for better crawling and indexing.</p><span class="box-default-icon novi-icon icon-lg mercury-icon-target-2"></span>
                   </div>
                 </div>
                 <div class="col-xl-6 wow fadeInUp" data-wow-delay=".4s">
                   <div class="box-default">
-                    <div class="box-default-title">Content Creation & Optimization</div>
+                    <div class="box-default-title ">Content Creation & Optimization</div>
                     <p class="box-default-description">Create SEO-optimized, high-quality content that engages and converts.</p><span class="box-default-icon novi-icon icon-lg mercury-icon-user"></span>
                   </div>
                 </div>
                 <div class="col-xl-6 wow fadeInUp" data-wow-delay=".5s">
                   <div class="box-default">
-                    <div class="box-default-title">Link Building & Off-Page SEO</div>
+                    <div class="box-default-title ">Link Building & Off-Page SEO</div>
                     <p class="box-default-description">Outreach and partnership with high-authority websites for quality backlinks.</p><span class="box-default-icon novi-icon icon-lg mercury-icon-partners"></span>
                   </div>
                 </div>
@@ -78,7 +78,7 @@ const Seo = () => {
         </div>
         <div class="image-left-side wow slideInRight" data-wow-delay=".5s"><img src={homeimg2} alt="" width="636" height="240"/>
         </div>
-        <div class="decor-text decor-text-2 wow fadeInUp" data-wow-delay=".3s">features</div>
+       
       
     </Section>
 

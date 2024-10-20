@@ -33,7 +33,7 @@ const Benefits = () => {
               
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem]  ">
                 <h5 className="h5 mb-5">{item.title}</h5>
-                <p className="body-2 mb-6 text-n-3">{item.text}</p>
+                <p className="body-2 mb-6 text-white">{item.text}</p>
                
                 
                 <div className="flex items-center mt-auto">
@@ -53,10 +53,10 @@ const Benefits = () => {
               </div>
               {item.light && <GradientLight />}
               <div
-                className="absolute inset-0.5 bg-n-8"
+                className="absolute inset-2 bg-n-8"
                 style={{ clipPath: "url(#benefits)" }}
               >
-                <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10  bg-conic-gradient">
+                <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10 ">
                   {item.imageUrl && (
                     <img
                       src={item.imageUrl}

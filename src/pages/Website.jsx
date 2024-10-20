@@ -27,7 +27,7 @@ const Website = () => {
                 <div class="section-name wow fadeInRight" data-wow-delay=".2s">Website Development and Hosting</div>
                 <h3 class="wow fadeInLeft text-capitalize devider-bottom" data-wow-delay=".3s">What We<span class="text-primary"> Do</span></h3>
                 <p class="offset-xl-40 wow fadeInUp" data-wow-delay=".4s">In today's fast-paced digital world, a strong online presence is crucial for any business to succeed. Our team of experienced developers and hosting experts is here to create beautiful, functional, and secure websites tailored to your needs. With our end-to-end solutions, you get a custom website and reliable hosting, ensuring that your business runs smoothly online. From startups to large enterprises, we deliver web solutions that engage, convert, and scale.</p>
-                <p class="default-letter-spacing font-weight-bold text-gray-dark wow fadeInUp" data-wow-delay=".4s">Build and Host Your Dream Website with Us</p>
+                <p class="default-letter-spacing font-weight-bold text-primary wow fadeInUp" data-wow-delay=".4s">Build and Host Your Dream Website with Us</p>
               </div>
             </div>
           </div>
@@ -73,7 +73,7 @@ const Website = () => {
         </div>
         <div class="image-left-side wow slideInRight" data-wow-delay=".5s"><img src={homeimg2} alt="" width="636" height="240"/>
         </div>
-        <div class="decor-text decor-text-2 wow fadeInUp" data-wow-delay=".3s">features</div>
+        
       
     </Section>
 

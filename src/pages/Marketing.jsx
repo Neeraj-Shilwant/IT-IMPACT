@@ -27,12 +27,12 @@ const Marketing = () => {
                 <div class="section-name wow fadeInRight" data-wow-delay=".2s">Digital Marketing Services</div>
                 <h3 class="wow fadeInLeft text-capitalize devider-bottom" data-wow-delay=".3s">What We<span class="text-primary"> Do</span></h3>
                 <p class="offset-xl-40 wow fadeInUp" data-wow-delay=".4s">In a world where consumers increasingly turn to online channels for information, shopping, and communication, having a solid digital marketing strategy is crucial. Our digital marketing services are designed to help businesses of all sizes grow and succeed in today’s digital landscape. Whether you're looking to drive more traffic, increase conversions, or build brand awareness, we have the right tools and expertise to make it happen.</p>
-                <p class="default-letter-spacing font-weight-bold text-gray-dark wow fadeInUp" data-wow-delay=".4s">Boost Your Online Presence with Expert Digital Marketing Services</p>
+                <p class="default-letter-spacing font-weight-bold text-primary wow fadeInUp" data-wow-delay=".4s">Boost Your Online Presence with Expert Digital Marketing Services</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="decor-text decor-text-1">MARKETING</div>
+        <div class="decor-text decor-text-1">MARKET</div>
     </Section>
 
     <Section className="section my-15 mb-32 custom-section position-relative section-md" >
@@ -74,7 +74,7 @@ const Marketing = () => {
         </div>
         <div class="image-left-side wow slideInRight" data-wow-delay=".5s"><img src={homeimg2} alt="" width="636" height="240"/>
         </div>
-        <div class="decor-text decor-text-2 wow fadeInUp" data-wow-delay=".3s">features</div>
+        
       
     </Section>
 

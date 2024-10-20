@@ -29,12 +29,12 @@ const Chatbot = () => {
                 <div class="section-name wow fadeInRight" data-wow-delay=".2s">Seamless AI Chatbot Integration for Your Platform</div>
                 <h3 class="wow fadeInLeft text-capitalize devider-bottom" data-wow-delay=".3s">What We<span class="text-primary"> Do</span></h3>
                 <p class="offset-xl-40 wow fadeInUp" data-wow-delay=".4s">Enhance your customer service, streamline operations, and provide 24/7 support with our cutting-edge AI chatbot integration services. Our AI-powered chatbots deliver instant, human-like responses to your customers, enabling efficient communication, solving customer queries, and boosting engagement. From e-commerce platforms to customer support portals, our AI chatbots are built to adapt to your unique business needs, helping you improve customer satisfaction while saving time and resources.</p>
-                <p class="default-letter-spacing font-weight-bold text-gray-dark wow fadeInUp" data-wow-delay=".4s">Boost Your Online Presence with Professional SEO Services</p>
+                <p class="default-letter-spacing font-weight-bold text-primary wow fadeInUp" data-wow-delay=".4s">Boost Your Online Presence with Professional SEO Services</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="decor-text decor-text-1">.SEO.</div>
+        <div class="decor-text decor-text-1">.Chat.</div>
     </Section>
 
     <Section className="section my-15 mb-32 custom-section position-relative section-md" >
@@ -76,7 +76,7 @@ const Chatbot = () => {
   </div>
   <div class="image-left-side wow slideInRight" data-wow-delay=".5s"><img src={homeimg2} alt="" width="636" height="240"/>
   </div>
-  <div class="decor-text decor-text-2 wow fadeInUp" data-wow-delay=".3s">features</div>
+  
 
 </Section>
 

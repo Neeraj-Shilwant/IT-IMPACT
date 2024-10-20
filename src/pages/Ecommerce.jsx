@@ -27,7 +27,7 @@ const Ecommerce = () => {
                 <div class="section-name wow fadeInRight" data-wow-delay=".2s">WordPress eCommerce Store Development Services</div>
                 <h3 class="wow fadeInLeft text-capitalize devider-bottom" data-wow-delay=".3s">What We<span class="text-primary"> Do</span></h3>
                 <p class="offset-xl-40 wow fadeInUp" data-wow-delay=".4s">Take your business online with a scalable, feature-rich eCommerce store built on the world’s most popular content management system—WordPress. Our WordPress eCommerce store development services are designed to provide you with everything you need to sell your products seamlessly. Whether you’re starting from scratch or upgrading an existing store, we ensure a smooth and efficient process that results in a stunning, user-friendly online store that drives sales and boosts customer satisfaction.</p>
-                <p class="default-letter-spacing font-weight-bold text-gray-dark wow fadeInUp" data-wow-delay=".4s">Build a Powerful eCommerce Store on WordPress with Our Expert Solutions</p>
+                <p class="default-letter-spacing font-weight-bold text-primary wow fadeInUp" data-wow-delay=".4s">Build a Powerful eCommerce Store on WordPress with Our Expert Solutions</p>
               </div>
             </div>
           </div>
@@ -75,7 +75,7 @@ const Ecommerce = () => {
         </div>
         <div class="image-left-side wow slideInRight" data-wow-delay=".5s"><img src={homeimg2} alt="" width="636" height="240"/>
         </div>
-        <div class="decor-text decor-text-2 wow fadeInUp" data-wow-delay=".3s">features</div>
+        
       
     </Section>
     {/* <Section className="overflow-hidden" id="seo">
