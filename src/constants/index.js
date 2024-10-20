@@ -117,6 +117,7 @@ export const roadmap = [
     date: "Nov 2023",
     status: "done",
     imageUrl: roadmap2,
+    colorful: true,
   },
   {
     id: "2",
@@ -125,6 +126,7 @@ export const roadmap = [
     date: "May 2023",
     status: "done",
     imageUrl: roadmap3,
+    colorful: true,
   },
   {
     id: "3",
@@ -133,6 +135,7 @@ export const roadmap = [
     date: "April 2024",
     status: "progress",
     imageUrl: roadmap4,
+    colorful: true,
   },
 ];
 
@@ -259,7 +262,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
-    
+    light:true
     
   },
   {
@@ -281,6 +284,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
+    light:true
   },
   {
     id: "3",
