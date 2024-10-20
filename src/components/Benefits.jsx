@@ -3,6 +3,7 @@ import Heading from "./Heading";
 import Section from "./Section";
 import Arrow from "../assets/svg/Arrow";
 import { GradientLight } from "./design/Benefits";
+import { Gradient } from "./design/Roadmap";
 import ClipPath from "../assets/svg/ClipPath";
 import { Link } from "react-router-dom";
 // import Button from "./Button";
@@ -10,7 +11,7 @@ import { Link } from "react-router-dom";
 const Benefits = () => {
   return (
     <Section id="Services">
-      <div className="container relative z-2">
+      <div className="container relative z-2 ">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
           title=" The Services We Provide at IT-IMPACT "
@@ -21,7 +22,7 @@ const Benefits = () => {
             
             <div
               
-              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem] bg-conic-gradient"
+              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]  "
               style={{
                 backgroundImage: `url(${item.backgroundUrl})`,
               }}
@@ -30,7 +31,7 @@ const Benefits = () => {
               
             >
               
-              <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] ">
+              <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem]  ">
                 <h5 className="h5 mb-5">{item.title}</h5>
                 <p className="body-2 mb-6 text-n-3">{item.text}</p>
                
@@ -55,7 +56,7 @@ const Benefits = () => {
                 className="absolute inset-0.5 bg-n-8"
                 style={{ clipPath: "url(#benefits)" }}
               >
-                <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
+                <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10  bg-conic-gradient">
                   {item.imageUrl && (
                     <img
                       src={item.imageUrl}
@@ -67,7 +68,7 @@ const Benefits = () => {
                   )}
                 </div>
               </div>
-
+              <Gradient />
               <ClipPath />
             </div>
            
